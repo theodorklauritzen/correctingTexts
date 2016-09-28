@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>correcting texts</title>
+
+    <script src="libraries/nlp.js" type="text/javascript"></script>
+    <script src="libraries/rita.js" type="text/javascript"></script>
+    <script src="libraries/rita-full.js" type="text/javascript"></script>
+
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <textarea id="input" class="basic textBox"></textarea>
+    <button onclick="check();" class="basic">check text</button>
+    <div id="output" readonly class="basic textBox output"></div>
+
+    <div class="basic">
+      <h5 style="text-align: center; font-size:20px; margin-top: 10px; margin-bottom: 10px;">INFO</h5>
+      <p>This program is amde by xupertheo.  It is made as a program to check text for mistakes in verbs.  I've uesed two libraies to make this program.  One of them is called RiTa.js and the other is called nlp comprimise.  You can find the RiTa.js library <a href="http://rednoise.org/rita/index.php">here</a> and the nlp comprrimise library <a href="http://nlp-compromise.github.io/website/#demos">here</a> or on github <a href="https://github.com/nlp-compromise/nlp_compromise">here</a>.  I've used another verson for clients if you want that library you can find it on github <a href="https://github.com/Art1Sec8/nlp-compromise">here</a></p>
+      <p>Here are the color codes: <br/>
+        <a style="background-color:red;">generic</a><br />
+        <a style="background-color:blue;">past-tense</a><br />
+        <a style="background-color:green;">past-participle</a><br />
+        <a style="background-color:orange;">infinitive</a><br />
+        <a style="background-color:yellow;">present-tense</a><br />
+        <a style="background-color:gray;">gerund</a><br />
+      </p>
+    </div>
+  </body>
+</html>

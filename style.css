@@ -1,0 +1,22 @@
+.textBox {
+  height: 250px;
+  overflow-y: scroll;
+}
+
+.basic {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  resize: none;
+  display: block;
+  font-size: 14px;
+  outline: none;
+}
+
+.output {
+  border-color: #afafaf;
+  border-width: 1px;
+  border-style: solid;
+  overflow-y: scroll;
+  word-wrap: break-word;
+}
